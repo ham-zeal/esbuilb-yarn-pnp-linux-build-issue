@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+.env
+*.log
+pdfs
+.idea/
+
+*.tsbuildinfo
+
+# yarn 3 stuff
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

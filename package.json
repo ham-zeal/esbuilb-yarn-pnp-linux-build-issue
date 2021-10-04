@@ -1,0 +1,12 @@
+{
+  "name": "yarn-3-esbuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "0.13.3"
+  },
+  "scripts": {
+    "fail": " docker build -t test ./"
+  }
+}
