@@ -32,4 +32,3 @@ ENV APP_VERSION ${APP_VERSION}
 
 # move to app folder
 WORKDIR /usr/src/app
-RUN yarn

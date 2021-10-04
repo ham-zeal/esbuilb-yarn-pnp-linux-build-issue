@@ -7,6 +7,7 @@
     "esbuild": "0.13.3"
   },
   "scripts": {
-    "fail": " docker build -t test ./"
+    "fail": "docker build -t test ./",
+    "show:fail": "docker run -it test sh"
   }
 }
