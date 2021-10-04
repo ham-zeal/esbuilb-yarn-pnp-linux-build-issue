@@ -7,7 +7,8 @@
     "esbuild": "0.13.3"
   },
   "scripts": {
+    "linux:fail": "yarn --inline-builds",
     "fail": "docker build -t test ./",
-    "show:fail": "docker run -it test sh"
+    "fail:docker": "yarn fail"
   }
 }
