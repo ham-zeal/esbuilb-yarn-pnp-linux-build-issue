@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "esbuild": "0.13.3"
+    "esbuild": "0.13.4"
   },
   "scripts": {
     "linux:fail": "yarn --inline-builds",
