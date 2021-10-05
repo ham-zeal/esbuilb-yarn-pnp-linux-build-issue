@@ -8,7 +8,8 @@
   },
   "scripts": {
     "linux:fail": "yarn --inline-builds",
-    "fail": "docker build -t test ./",
+    "work": "docker build -t test ./",
+    "fail": "docker build -f ./Dockerfile.dead -t test ./",
     "fail:docker": "yarn fail"
   }
 }
