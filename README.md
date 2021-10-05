@@ -2,20 +2,22 @@
 
 ## how to see the issue?
 
+install on macOS, then copy into docker.
+
 run:
 
 ```sh
 yarn --inline-builds
 ```
 
-on _any_ linux os.
+on _any_ linux container.
 
 ## how to see if not on linux
 
 run:
 
 ```sh
-yarn fail:docker
+yarn fail
 ```
 
 ## what do you see?
@@ -134,4 +136,4 @@ yes.
 
 ## does it work on macos and windows?
 
-yes, it's only on linux and only for PnP.
+yes, it's only on linux and only for PnP from a macOS host
